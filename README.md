@@ -40,25 +40,32 @@ Specifically, company to understand the factors affecting the demand for these s
 6.	Model Evaluation
     1. Calculating r2 for test and comparing with model if similar then the model is good.
     2. Understand the spread for r2
-
-### Conclusions
-
+    
+### Conclusions :-
 **1. The variables that are significant in predicting the demand for shared bikes are :-**
-1. Registered
-2. Casual
-3. Holiday 
-4. Wednesday 
-5. Mist 
-6. Feb 
-7. yr
+1.	temp - top 1 feature highly significant for bike share demand
+2.	hum
+3.	workingday
+4.	Sunday
+5.	mist
+6.	Jan
+7.	winter
+8.	Jul
+9.	summer
+10.	light - top 2 feature highly significant for bike share demand
+11.	windspeed - top 3 feature highly significant for bike share demand
+12.	Sep
+13.	holiday
+14.	yr
 
 **2. How well those variables describe the bike demands :-**
-1. Number of registered users are having more impact on bike sharing than number of casual users.
-2. Bike shares are high when there is holiday
-3. from weekday the bike share is high on wednesday
-4. ALso it is an observation that bike share is high when the weather is mist category i.e (Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist)
-5. bike shares are also on demand during the Feb Month.
-
+1. Demand of bike share and the temp has positive correlation. demand increases as the temp increases
+2. when the windspeed is less then demand of bike share increases
+3. same with humidity, As the humidity downs the demand for bike share goes up
+4. demand of bike share is low during January and july month and high during september month.
+5. demand of bike share is high during summer and winter season
+6. on holiday bike share is low as compare to workingday.
+7. when weather is light that is Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds As the demand for bike share goes down. And same when weather is mist (Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds)
 
 ### About Repository (Files) -
 1. Python File for MLR assignment named as "Linear Regression Assignment.ipynb"
